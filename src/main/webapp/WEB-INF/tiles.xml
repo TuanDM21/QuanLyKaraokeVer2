@@ -118,5 +118,29 @@
 			value="/WEB-INF/bodyfragments/Product.jsp" />
 	</definition>
 
+	<definition name="Supplier" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/Supplier.jsp" />
+	</definition>
+
+	<definition name="SelectProduct" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/SelectProduct.jsp" />
+	</definition>
+
+	<definition name="AddProductBySupplier"
+		extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/AddProductBySupplier.jsp" />
+	</definition>
+
+	<definition name="SuccessAdd" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/SuccessAdd.jsp" />
+	</definition>
 
 </tiles-definitions>

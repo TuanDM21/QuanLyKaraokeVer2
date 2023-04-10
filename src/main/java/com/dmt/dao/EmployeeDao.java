@@ -3,7 +3,6 @@ package com.dmt.dao;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import com.dmt.model.Customer;
 import com.dmt.model.Employee;
 
 public class EmployeeDao {

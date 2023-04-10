@@ -74,7 +74,7 @@
 					Validator.isRequired('#phoneNumber'),
 					Validator.isRequired('#address'),
 					Validator.isEmail('#email'),
-					Validator.isPhone('#phoneNumber'), ],
+					Validator.isSoDienThoaiTuan('#phoneNumber'), ],
 		});
 	</script>
 

@@ -7,6 +7,11 @@ public class Supplier {
 	private String phoneNumber;
 	private String email;
 
+	public Supplier() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public Supplier(int id, String name, String address, String phoneNumber, String email) {
 		this.id = id;
 		this.name = name;

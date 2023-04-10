@@ -26,7 +26,8 @@ Manager manager = (Manager) session.getAttribute("loginPersonM");
 		<li><a href="${pageContext.request.contextPath}/Home">Home</a></li>
 		<li><a href="${pageContext.request.contextPath}/SearchRoom">SearchRoom</a></li>
 		<li><a
-			href="${pageContext.request.contextPath}/ViewInvoice?userId=<%=customer.getId()%>">View Invoice</a></li>
+			href="${pageContext.request.contextPath}/ViewInvoice?userId=<%=customer.getId()%>">View
+				Invoice</a></li>
 		<%
 		} else if (employee != null) {
 		%>

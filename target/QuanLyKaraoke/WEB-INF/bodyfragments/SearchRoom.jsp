@@ -21,12 +21,12 @@
 		<h2>SearchRoom</h2>
 		<form class="form-inline" action="show-room" method="post"
 			id="form-new">
-			<div>
+			<div class="form-group">
 				<label for="dateStart" class="mb-2 mr-sm-2">Date Start</label> <input
 					type="date" class="form-control" name="dateStart" id="dateStart">
 				<span class="form-message" style="color: red"></span>
 			</div>
-			<div>
+			<div class="form-group">
 				<label for="dateEnd" class="mb-2 mr-sm-2">Date End</label> <input
 					type="date" class="form-control" name="dateEnd" id="dateEnd">
 				<span class="form-message" style="color: red"></span>
